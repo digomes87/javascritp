@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dom</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+
+    <script>
+      var linkElement = document.createElement('a');
+      linkElement.setAttribute('href', 'https://twitter.com/devdiegogo');
+      
+      //criando texto que ira aparecer com o link
+      var textLink = document.createTextNode('Sigam os Bons');
+      linkElement.appendChild(textLink);
+
+      var containerElement = document.querySelector('#app');
+      containerElement.appendChild(linkElement);
+
+    </script>
+</body>
+</html>

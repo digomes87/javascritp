@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Primeira</title>
+</head>
+<body>
+   aqui
+  <script>
+    // variavel
+    var nome = "Diego";
+
+    // vetor
+    var alunos = ['Diego', 'Joao'];
+
+
+    // objeto
+    var turma = {
+      turma: 'ABC31',
+      name: 'Diego',
+      age: 31,
+      state: 'PR'
+    };
+
+    console.log(turma.turma);
+
+    function calculo(x1,x2){
+      var resultado = x1 + x1;
+
+      return resultado;
+    }
+
+    function sexo(sexo){
+      switch(sexo){
+        case 'M':
+          return 'Masculino';
+        case 'F':
+          return 'Feminino';
+        default:
+          return 'Outra opção selecionada'
+      }
+    }
+
+    var c = sexo('F')
+    console.log(c);
+  </script>
+</body>
+</html>
